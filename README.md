@@ -11,10 +11,12 @@ Internship at VSD on RISC-V and VLSI using VSDSquadron Mini Board.
 * C code for sum of numbers from 1 to N
 * Assembly language
   1. Virtual box Installed
-     <img width="962" alt="2024-06-26" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/57bcde69-a306-4a68-86ce-82ac5ee4b493">">
-  2. Ubuntu installed
-     <img width="763" alt="image" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/75d04869-329c-4aea-9f66-07668db4c640">">
-  3. C code to execute The Sum of Numbers 1 to N
+     <img width="962" alt="2024-06-26" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/57bcde69-a306-4a68-86ce-82ac5ee4b493">
+
+   2. Ubuntu installed
+     <img width="763" alt="image" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/75d04869-329c-4aea-9f66-07668db4c640">
+
+   3. C code to execute The Sum of Numbers 1 to N
    * Leafpad id installed using **sudo snap install leafpad**
    * Create file using **leafpad sum1ton.c &**
    * Here you fnd the leafpad to code **write the code**
