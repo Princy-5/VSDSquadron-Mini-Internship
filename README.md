@@ -14,8 +14,8 @@ Internship at VSD on RISC-V and VLSI using VSDSquadron Mini Board.
    <img width="951" alt="image" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/57126163-6ec6-47d5-86b6-145d8b11db0e">
 
 2. Ubuntu installed
-   <img src="<img width="923" alt="image" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/3158286b-672e-40bc-b859-3205d776b0c8">
-">
+   <img width="923" alt="image" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/3158286b-672e-40bc-b859-3205d776b0c8">
+
 3. C code to execute The Sum of Numbers 1 to N
       * Leafpad id installed using **sudo snap install leafpad**
       * Create file using **leafpad sum1ton.c &**
@@ -26,6 +26,9 @@ Internship at VSD on RISC-V and VLSI using VSDSquadron Mini Board.
 4. Output for the C Program
      * Compile the program using **gcc sum1ton.c** then **ls -ltr**
      * Execute the program using **./a.out**
+
+         <img src="<img width="802" alt="image" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/ee24866c-eff6-41fe-ba0b-23c980fdd4bb">
+">
 
      
 
