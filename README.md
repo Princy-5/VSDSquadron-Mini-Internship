@@ -171,17 +171,16 @@ This simple program demonstrates the basics of creating an automated ticket vend
    * `-O1`: This optimization level enables basic optimizations that improve performance without significantly increasing compilation time.
    * `ofast`: This level enables aggressive optimizations, potentially breaking strict standards compliance for maximum performance.
 ## Steps to Compile, Simulate, and Verify with SPIKE
+ 1. Compile with Different Optimization Levels:
+     First, compile the program with the `-O1` optimization level:
 
-     1. Compile with Different Optimization Levels:
+    `riscv64-unknown-elf-gcc -O1 -o ticketterminaldesigner ticketterminaldesigner.c`
 
-         First, compile the program with the `-O1` optimization level:
-         
-         `riscv64-unknown-elf-gcc -O1 -o ticketterminaldesigner ticketterminaldesigner.c`
+    Then, compile the program with the `-Ofast` optimization level:
 
-         Then, compile the program with the `-Ofast` optimization level:
-         
-         `riscv64-unknown-elf-gcc -O1 -o ticketterminaldesigner_Ofast ticketterminaldesigner.c`
-          ![Screenshot 2024-06-27 201633](https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/02098558-a1da-4dbb-820f-7fa67228670e)
+     `riscv64-unknown-elf-gcc -O1 -o ticketterminaldesigner_Ofast ticketterminaldesigner.c`
+
+ ![Screenshot 2024-06-27 201633](https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/02098558-a1da-4dbb-820f-7fa67228670e)
 
 
 
