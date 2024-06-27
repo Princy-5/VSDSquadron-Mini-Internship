@@ -91,10 +91,12 @@ int main() {
 `
 This will prompt you to enter the number of hours, calculate the total cost, and print the parking ticket.
 
-**Explanation of the Code**
-       * Header Inclusion: The program includes the `stdio.h` header for input/output operations.
-       * Rate Definition: The **RATE_PER_HOUR** is defined as a constant value representing the cost per hour of parking.
-       * Ticket Printing Function: The **print_ticket** function takes the number of hours and the total cost as arguments and prints the ticket.
+Explanation of the Code
+
+       - Header Inclusion: The program includes the stdio.h header for input/output operations
+       
+       
+
      
      
      
