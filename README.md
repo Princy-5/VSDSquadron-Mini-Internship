@@ -180,7 +180,7 @@ This simple program demonstrates the basics of creating an automated ticket vend
 
      `riscv64-unknown-elf-gcc -O1 -o ticketterminaldesigner_Ofast ticketterminaldesigner.c`
 
- ![Screenshot 2024-06-27 201633](https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/02098558-a1da-4dbb-820f-7fa67228670e)
+       ![Screenshot 2024-06-27 201633](https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/02098558-a1da-4dbb-820f-7fa67228670e)
 
  I used an AI tool to generate the initial code for the Automated Parking Ticket Vending Machine. Afterward, I compiled the code using the RISC-V toolchain and employed the SPIKE simulator for debugging and verification. By compiling the code with different optimization levels (`-O1` and `-Ofast`) and using `riscv64-unknown-elf-objdump` to inspect the generated machine code, I ensured the correctness and efficiency of the program.
 
@@ -188,9 +188,9 @@ This simple program demonstrates the basics of creating an automated ticket vend
 
    * `riscv64-unknown-elf-objdump -d ticketterminaldesigner |less`
 
-![Screenshot 2024-06-27 154112](https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/193546cd-7742-41b8-a020-0c55f5c51e54)
+      ![Screenshot 2024-06-27 154112](https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/193546cd-7742-41b8-a020-0c55f5c51e54)
 
-![Screenshot 2024-06-27 205915](https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/4dec1697-e91c-4095-9776-894ba942d3ed)
+      ![Screenshot 2024-06-27 205915](https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/4dec1697-e91c-4095-9776-894ba942d3ed)
 
 2. Spike simulation:
    * Running with spike
