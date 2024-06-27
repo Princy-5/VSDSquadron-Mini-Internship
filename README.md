@@ -119,7 +119,7 @@ int main() {
 }
 ```
 This code serves as a foundational example of how an automated ticket vending system can be implemented in C. It can be further extended with additional features such as ticket validation, payment processing, and database integration for a more robust solution.
-# EXPLANATION OF THE CODE
+### EXPLANATION OF THE CODE
  * Header Inclusion: The program includes the `stdio.h` header for input/output operations.
  * Rate Definition: The `RATE_PER_HOUR` is defined as a constant value representing the cost per hour of parking.
  * Ticket Printing Function: The `print_ticket` function takes the number of hours and the total cost as arguments and prints the ticket.
@@ -135,7 +135,7 @@ This simple program demonstrates the basics of creating an automated ticket vend
 <img src="![Screenshot 2024-06-27 140736](https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/173ebf6f-b430-4e03-8a4e-e923ab7a84ea)
 ">
 
-# 2.OUTPUT
+## 2.OUTPUT
    * Compile the program using `gcc ticketterminal.c` and execute the program using `./a.out` command
    * Compile the code using the RISC-V GCC compiler with the following command:
      `riscv64-unknown-elf-gcc -o1 -mabi=lp64 -march=rv64i -o ticketterminal.o ticketterminal.c`
