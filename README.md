@@ -182,6 +182,9 @@ This simple program demonstrates the basics of creating an automated ticket vend
 
  ![Screenshot 2024-06-27 201633](https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/02098558-a1da-4dbb-820f-7fa67228670e)
 
+ I used an AI tool to generate the initial code for the Automated Parking Ticket Vending Machine. Afterward, I compiled the code using the RISC-V toolchain and employed the SPIKE simulator for debugging and verification. By compiling the code with different optimization levels (`-O1` and `-Ofast`) and using `riscv64-unknown-elf-objdump` to inspect the generated machine code, I ensured the correctness and efficiency of the program.
+ 
+
 
 
 
