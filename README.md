@@ -41,7 +41,7 @@ Internship at VSD on RISC-V and VLSI using VSDSquadron Mini Board.
     <img width="885" alt="image" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/975510aa-2a4a-4787-bd07-fbb5f98d0809">
 
 # Conclusion
-       By following these steps, you will have a virtual environment set up with the RISC-V toolchain ready for development. This setup allows you to compile and test RISC-V 
+  By following these steps, you will have a virtual environment set up with the RISC-V toolchain ready for development. This setup allows you to compile and test RISC-V 
   programs, providing a robust environment for RISC-V development projects.
 
 
