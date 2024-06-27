@@ -62,19 +62,25 @@ void print_ticket(int hours, int cost) {
     printf("----------------------------\n");
     printf("Thank you for using our service!\n");
 }
-
 int main() {
     int hours;
     int total_cost;
+
+    // Prompt the user for the number of hours they intend to park
     printf("Welcome to the Automated Parking Ticket Vending Machine\n");
     printf("Please enter the number of hours you intend to park: ");
     scanf("%d", &hours);
+
+    // Calculate the total cost
     total_cost = hours * RATE_PER_HOUR;
+
+    // Print the ticket
     print_ticket(hours, total_cost);
-    
-   return 0;
+
+    return 0;
 }
 ```
+
 **Steps to Compile and Run the Program**
 1. Create the Source File:
      Save the above code in a file named **ticketterminaldesigner.c**
@@ -91,9 +97,35 @@ int main() {
 `
 This will prompt you to enter the number of hours, calculate the total cost, and print the parking ticket.
 
-Explanation of the Code
+# Explanation of the Code
 
-       - Header Inclusion: The program includes the stdio.h header for input/output operations
+        The provided RISC-V program is a simple implementation of an Automated Parking Ticket Vending Machine. Written in C, the program simulates the process of issuing parking tickets. It prompts the user to input the number of hours they intend to park, calculates the total cost based on a predefined hourly rate (set at $5 per hour), and then prints a ticket displaying the hours parked and the total cost. The program includes a main function that handles user input and calculation, and a separate `print_ticket` function that formats and prints the ticket details. This structure ensures clarity and modularity in the code. To compile and run the program, the RISC-V GNU toolchain is used, and an emulator like Spike is required to execute the compiled binary. This example demonstrates the basic steps needed to create a functional ticket vending application, laying the groundwork for more advanced features such as input validation, different parking rates, or integration with physical hardware interfaces for a complete parking management system.
+
+**Behavior: Manages the flow of the program and user interactions**
+
+```
+int main() {
+    int hours;
+    int total_cost;
+
+    // Prompt the user for the number of hours they intend to park
+    printf("Welcome to the Automated Parking Ticket Vending Machine\n");
+    printf("Please enter the number of hours you intend to park: ");
+    scanf("%d", &hours);
+
+    // Calculate the total cost
+    total_cost = hours * RATE_PER_HOUR;
+
+    // Print the ticket
+    print_ticket(hours, total_cost);
+
+    return 0;
+}
+```
+This code serves as a foundational example of how an automated ticket vending system can be implemented in C. It can be further extended with additional features such as ticket validation, payment processing, and database integration for a more robust solution.
+   
+
+       
        
        
 
