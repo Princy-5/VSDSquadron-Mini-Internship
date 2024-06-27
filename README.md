@@ -21,7 +21,7 @@ Internship at VSD on RISC-V and VLSI using VSDSquadron Mini Board.
       * Create file using **leafpad sum1ton.c &**
       * Here you fnd the leafpad to code **write the code**
 
-         <img width="763" alt="image" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/f6223570-9184-4e2b-8f4b-e39d983be5b5">
+         <img width="922" alt="image" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/463d7ded-79d8-4d05-bb5d-21fc8c3cee70">
 
 4. Output for the C Program
      * Compile the program using **gcc sum1ton.c** then **ls -ltr**
