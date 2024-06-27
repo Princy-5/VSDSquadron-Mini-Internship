@@ -153,8 +153,7 @@ This simple program demonstrates the basics of creating an automated ticket vend
 
      ![Screenshot 2024-06-27 154317](https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/8680c463-9f4c-4489-be04-82d7ea38ec44)
 
-   * Calculation `-o1` instruction
-            * To obtain the difference execute the same function using the -Ofast function like given below
+   * Calculation `-o1` instruction then to obtain the difference execute the same function using the -Ofast function like given below
               `riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o ticketterminal.o ticketterminal.c`
 
         ![Screenshot 2024-06-27 143529](https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/22ca5cdb-1c75-4eb3-bb2a-97226dedd0b6)
