@@ -139,8 +139,9 @@ This simple program demonstrates the basics of creating an automated ticket vend
    * Compile the program using `gcc ticketterminal.c` and execute the program using `./a.out` command
    * Compile the code using the RISC-V GCC compiler with the following command:
      `riscv64-unknown-elf-gcc -o1 -mabi=lp64 -march=rv64i -o ticketterminal.o ticketterminal.c`
+      ![Screenshot 2024-06-27 140736](https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/bb554a88-ec7b-417d-ba04-b2b2cf38b175)
 
-     ![Screenshot 2024-06-27 142543](https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/20864cfa-5f3c-480c-b84d-257688088326)
+      ![Screenshot 2024-06-27 142543](https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/20864cfa-5f3c-480c-b84d-257688088326)
 
    * Now, switch tab to function your main function and calculation using this command :
      `riscv64-unknown-elf-objdump -d ticketterminal.o |less`
