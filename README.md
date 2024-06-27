@@ -45,6 +45,41 @@ Internship at VSD on RISC-V and VLSI using VSDSquadron Mini Board.
   programs, providing a robust environment for RISC-V development projects.
 
 
+# TASK 2 
+# PROJECT 1 - Ticket Terminal Designer: Developing an Automated Parking Ticket Vending Machine
+To develop an Automated Parking Ticket Vending Machine using the RISC-V toolchain, we will create a simple program that simulates issuing parking tickets. The program will prompt the user for the number of hours they intend to park, calculate the total cost based on a predefined rate, and print a ticket with the details.
+## code 
+C PROGRAMMING 
+---
+#include <stdio.h>
+#define RATE_PER_HOUR 5
+
+void print_ticket(int hours, int cost) {
+    printf("\n----------------------------\n");
+    printf("    Parking Ticket\n");
+    printf("----------------------------\n");
+    printf("Hours Parked: %d\n", hours);
+    printf("Total Cost: $%d\n", cost);
+    printf("----------------------------\n");
+    printf("Thank you for using our service!\n");
+}
+
+int main() {
+    int hours;
+    int total_cost;
+    printf("Welcome to the Automated Parking Ticket Vending Machine\n");
+    printf("Please enter the number of hours you intend to park: ");
+    scanf("%d", &hours);
+    total_cost = hours * RATE_PER_HOUR;
+    print_ticket(hours, total_cost);
+    
+   return 0;
+}
+---
+
+
+
+
    
       
    
