@@ -10,10 +10,10 @@ Internship at VSD on RISC-V and VLSI using VSDSquadron Mini Board.
 * Use the Terminal Windows in UBUNTU
 * C code for sum of numbers from 1 to N
 * Assembly language
-  1. Virtual box Installed
-       <img width="962" alt="2024-06-26" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/57bcde69-a306-4a68-86ce-82ac5ee4b493">
-
-  2. Ubuntu installed
+1. Virtual box Installed
+  <img src="<img width="951" alt="image" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/57126163-6ec6-47d5-86b6-145d8b11db0e">
+">
+2. Ubuntu installed
        <img width="763" alt="image" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/75d04869-329c-4aea-9f66-07668db4c640">
 
   3. C code to execute The Sum of Numbers 1 to N
