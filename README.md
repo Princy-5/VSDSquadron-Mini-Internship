@@ -35,6 +35,14 @@ Internship at VSD on RISC-V and VLSI using VSDSquadron Mini Board.
    * To calculate the different execution with Ofast instead of O1 as **riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c**
 
         <img width="707" alt="image" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/801f02cb-7972-44e4-89bb-d3a09000c833">
+6. search the main() and calculate the RISC-V instruction
+
+    <img width="885" alt="image" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/975510aa-2a4a-4787-bd07-fbb5f98d0809">
+
+# conclusion
+  By following these steps, you will have a virtual environment set up with the RISC-V toolchain ready for development. This setup allows you to compile and test RISC-V 
+  programs, providing a robust environment for RISC-V development projects.
+
 
    
       
