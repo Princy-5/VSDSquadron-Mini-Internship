@@ -162,6 +162,11 @@ This simple program demonstrates the basics of creating an automated ticket vend
 # CONCLUTION
    This foundational project showcases how RISC-V can be used for practical applications, setting the stage for more complex implementations and integrations with real-world hardware systems. By following these steps, you gain a clear understanding of the development process for embedded systems using the RISC-V architecture.
 
+# TASK 3
+# SPIKE simulation and verification with -O1 and -OFast along with running the RISK-V Objdump.
+
+   To further validate the functionality and performance of the Automated Parking Ticket Vending Machine program, you can use SPIKE for simulation and verification, and also run the RISC-V objdump tool to inspect the compiled binary. Additionally, you can compile the program with different optimization levels (-O1 and -Ofast) to observe the impact on performance and code size.
+
 
 
 
