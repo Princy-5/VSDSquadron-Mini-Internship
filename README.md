@@ -97,10 +97,6 @@ int main() {
 `
 This will prompt you to enter the number of hours, calculate the total cost, and print the parking ticket.
 
-# Explanation of the Code
-
-     The provided RISC-V program is a simple implementation of an Automated Parking Ticket Vending Machine. Written in C, the program simulates the process of issuing parking tickets.It prompts the user to input the number of hours they intend to park, calculates the total cost based on a predefined hourly rate (set at $5 per hour), and then prints a ticket displaying the hours parked and the total cost.
-
 **Behavior: Manages the flow of the program and user interactions**
 
 ```
@@ -123,15 +119,15 @@ int main() {
 }
 ```
 This code serves as a foundational example of how an automated ticket vending system can be implemented in C. It can be further extended with additional features such as ticket validation, payment processing, and database integration for a more robust solution.
-   
-
-       
-       
-       
-
-     
-     
-     
+# EXPLANATION OF THE CODE
+ * Header Inclusion: The program includes the stdio.h header for input/output operations.
+ * Rate Definition: The RATE_PER_HOUR is defined as a constant value representing the cost per hour of parking.
+ * Ticket Printing Function: The `print_ticket` function takes the number of hours and the total cost as arguments and prints the ticket.
+ * Main Function:
+     * Prompts the user for the number of hours they intend to park.
+     * Calculates the total cost by multiplying the hours by the rate.
+     * Calls the `print_ticket` function to print the ticket with the details.
+This simple program demonstrates the basics of creating an automated ticket vending machine using the RISC-V toolchain.You can expand this program by adding more features such as handling invalid input, offering different parking rates, or integrating with a real hardware interface for a complete system.
      
    
 
