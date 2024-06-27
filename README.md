@@ -159,7 +159,7 @@ This simple program demonstrates the basics of creating an automated ticket vend
 
         ![Screenshot 2024-06-27 143529](https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/22ca5cdb-1c75-4eb3-bb2a-97226dedd0b6)
 
-# CONCLUTION
+# CONCLUSION
    This foundational project showcases how RISC-V can be used for practical applications, setting the stage for more complex implementations and integrations with real-world hardware systems. By following these steps, you gain a clear understanding of the development process for embedded systems using the RISC-V architecture.
 
 # TASK 3
@@ -183,6 +183,44 @@ This simple program demonstrates the basics of creating an automated ticket vend
  ![Screenshot 2024-06-27 201633](https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/02098558-a1da-4dbb-820f-7fa67228670e)
 
  I used an AI tool to generate the initial code for the Automated Parking Ticket Vending Machine. Afterward, I compiled the code using the RISC-V toolchain and employed the SPIKE simulator for debugging and verification. By compiling the code with different optimization levels (`-O1` and `-Ofast`) and using `riscv64-unknown-elf-objdump` to inspect the generated machine code, I ensured the correctness and efficiency of the program.
+
+**(DEBUG done here) command:**
+
+   * `riscv64-unknown-elf-objdump -d ticketterminaldesigner |less`
+
+![Screenshot 2024-06-27 154112](https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/193546cd-7742-41b8-a020-0c55f5c51e54)
+
+![Screenshot 2024-06-27 205915](https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/4dec1697-e91c-4095-9776-894ba942d3ed)
+
+2. Spike simulation:
+   * Running with spike
+     `spike pk ticketterminaldesigner`
+
+     ![Screenshot 2024-06-27 202029](https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/a0b558b4-be10-4ddb-8d87-cd9d5438df8d)
+
+3. Generating and Inspecting Objdump:
+
+   * To debug the spike we need this command `spike -d pk ticketterminaldesigner`
+   * Then, by using the command `until pc 0 100b0`,which is the 1st line command of the main function the program counter runs from the 0 till the code 100b0
+   * To find the contents of the code we need to use the command `reg 0 sp` in which we content of the 100b0 th line
+   * To find the content in the next line just give `ENTER`
+   * Initially the value of the sp is `0X0000003ffffffb40` then the next step the sp values get subtracted with the hexadecimal and we get `0X0000003ffffffb20`
+   * Finally, by subtracting the both main function values we get the 3rd output as `0X000000ffffffb20`
+
+   ![Screenshot 2024-06-27 204120](https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/f11eff1d-7078-46bf-b9e7-abbb5e59594e)
+
+   <img width="959" alt="image" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/d5dbd0de-b806-465a-b0d0-0ec9c6542d6c">
+
+# CONCLUSION
+  
+  By compiling the Automated Parking Ticket Vending Machine program with different optimization levels, simulating it with SPIKE, and inspecting the generated machine code using objdump, you can gain insights into the performance and efficiency of your code on the RISC-V architecture. This process helps ensure that the program operates correctly and efficiently under different optimization settings, providing a deeper understanding of the compiler's impact on the code.
+
+
+
+
+   
+
+ 
  
 
 
