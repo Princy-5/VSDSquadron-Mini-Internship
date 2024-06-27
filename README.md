@@ -19,11 +19,11 @@ Step3. C code to execute The Sum of Numbers 1 to N
    * Create file using **leafpad sum1ton.c &**
    * Here you fnd the leafpad to code **write the code**
     <img src="<img width="763" alt="image" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/f6223570-9184-4e2b-8f4b-e39d983be5b5">
+
 Step4. Output for the C Program
    * Compile the program using **gcc sum1ton.c** then **ls -ltr**
    * Execute the program using **./a.out**
-     <img src="![image](https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/5318e820-f399-497e-89df-2f4a88eda92d)
-">
+
      
 
 
