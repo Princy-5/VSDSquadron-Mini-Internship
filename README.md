@@ -99,7 +99,7 @@ This will prompt you to enter the number of hours, calculate the total cost, and
 
 # Explanation of the Code
 
-        The provided RISC-V program is a simple implementation of an Automated Parking Ticket Vending Machine. Written in C, the program simulates the process of issuing parking tickets. It prompts the user to input the number of hours they intend to park, calculates the total cost based on a predefined hourly rate (set at $5 per hour), and then prints a ticket displaying the hours parked and the total cost. The program includes a main function that handles user input and calculation, and a separate `print_ticket` function that formats and prints the ticket details. This structure ensures clarity and modularity in the code. To compile and run the program, the RISC-V GNU toolchain is used, and an emulator like Spike is required to execute the compiled binary. This example demonstrates the basic steps needed to create a functional ticket vending application, laying the groundwork for more advanced features such as input validation, different parking rates, or integration with physical hardware interfaces for a complete parking management system.
+     The provided RISC-V program is a simple implementation of an Automated Parking Ticket Vending Machine. Written in C, the program simulates the process of issuing parking tickets.It prompts the user to input the number of hours they intend to park, calculates the total cost based on a predefined hourly rate (set at $5 per hour), and then prints a ticket displaying the hours parked and the total cost.
 
 **Behavior: Manages the flow of the program and user interactions**
 
