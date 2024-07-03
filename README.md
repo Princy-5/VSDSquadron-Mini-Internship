@@ -217,7 +217,7 @@ This simple program demonstrates the basics of creating an automated ticket vend
 
 
 # TASK 4 
-# Identify various RISC-V instruction type (R, I, S, B, U, J) and exact 32-bit instruction code in the instruction type format for below RISC-V instructions
+## Identify various RISC-V instruction type (R, I, S, B, U, J) and exact 32-bit instruction code in the instruction type format for below RISC-V instructions
 ADD r6, r2, r1
 
 SUB r7, r1, r2
