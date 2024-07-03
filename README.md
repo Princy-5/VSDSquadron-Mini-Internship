@@ -216,6 +216,38 @@ This simple program demonstrates the basics of creating an automated ticket vend
   By compiling the Automated Parking Ticket Vending Machine program with different optimization levels, simulating it with SPIKE, and inspecting the generated machine code using objdump, you can gain insights into the performance and efficiency of your code on the RISC-V architecture. This process helps ensure that the program operates correctly and efficiently under different optimization settings, providing a deeper understanding of the compiler's impact on the code.
 
 
+# TASK 4 
+# Identify various RISC-V instruction type (R, I, S, B, U, J) and exact 32-bit instruction code in the instruction type format for below RISC-V instructions
+ADD r6, r2, r1
+
+SUB r7, r1, r2
+
+AND r8, r1, r3
+
+OR r9, r2, r5
+
+XOR r10, r1, r4
+
+SLT r11, r2, r4
+
+ADDI r12, r4, 5
+
+SW r3, r1, 2
+
+SRL r16, r14, r2
+
+BNE r0, r1, 20
+
+BEQ r0, r0, 15
+
+LW r13, r1, 2
+
+SLL r15, r1, r2
+
+Upload the 32-bit pattern on Github"
+
+
+
 
 
    
