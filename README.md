@@ -276,7 +276,8 @@ Upload the 32-bit pattern on Github"
 
 Each of these instruction types has a specific format, opcode, and field layout in the instruction encoding, allowing RISC-V processors to efficiently execute a wide range of operations while maintaining simplicity and modularity in the instruction set architecture
 
-                      <img src="https://th.bing.com/th/id/OIP.4HYOeXVUJWKyJLH4mVUwmgHaDI?w=335&h=147&c=7&r=0&o=5&dpr=1.5&pid=1.7">
+ ![git](https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/2adc9f5a-4428-418f-b5b2-bfd24d0420cc)
+
 
 # R-Type Instructions (Register-Register)
 
