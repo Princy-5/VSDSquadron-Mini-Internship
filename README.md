@@ -321,9 +321,9 @@ Each of these instruction types has a specific format, opcode, and field layout 
     rs1 (r1): 00001 (binary)
     rs2 (r4): 00100 (binary)
     rd (r8): 01000 (binary)
-    Instruction Code: 0000000 00100 00001 100 01000 0110011
+    Instruction Code: 0000000 00100 00001 100 01000 0110011```
 
-* SLT r10, r2, r4
+ * SLT r10, r2, r4
 
  ```Opcode: 0110011
     Funct7: 0000000
