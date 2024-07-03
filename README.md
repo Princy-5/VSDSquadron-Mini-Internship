@@ -273,7 +273,7 @@ Upload the 32-bit pattern on Github"
 
 Each of these instruction types has a specific format, opcode, and field layout in the instruction encoding, allowing RISC-V processors to efficiently execute a wide range of operations while maintaining simplicity and modularity in the instruction set architecture
 
-# R-TYPE INSTRUCTION
+# R-Type Instructions (Register-Register)
 
 R-Type instructions format: `funct7 | rs2 | rs1 | funct3 | rd | opcode`
 
@@ -327,13 +327,24 @@ R-Type instructions format: `funct7 | rs2 | rs1 | funct3 | rd | opcode`
 
 * SLT r10, r2, r4
   
- ```Opcode: 0110011
+  ``Opcode: 0110011
     Funct7: 0000000
     Funct3: 010
     rs1 (r2): 00010 (binary)
     rs2 (r4): 00100 (binary)
     rd (r10): 01010 (binary)
-    Instruction Code: 0000000 00100 00010 010 01010 0110011```
+    Instruction Code: 0000000 00100 00010 010 01010 0110011``
+
+ 
+ # I-Type Instructions (Immediate)
+
+ I-Type instructions format: `imm[11:0] | rs1 | funct3 | rd | opcode`
+
+
+
+
+
+
 
 
 
