@@ -275,6 +275,8 @@ Each of these instruction types has a specific format, opcode, and field layout 
 
 # R-TYPE INSTRUCTION
 
+R-Type instructions format: `funct7 | rs2 | rs1 | funct3 | rd | opcode`
+
 * ADD r1, r2, r3
 
     ```Opcode: 0110011
@@ -314,24 +316,27 @@ Each of these instruction types has a specific format, opcode, and field layout 
      Instruction Code: 0000000 00101 00010 110 01000 0110011```
 
 * XOR r8, r1, r4
- 
- ```Opcode: 0110011
-    Funct7: 0000000
-    Funct3: 100
-    rs1 (r1): 00001 (binary)
-    rs2 (r4): 00100 (binary)
-    rd (r8): 01000 (binary)
-    Instruction Code: 0000000 00100 00001 100 01000 0110011```
+  
+  ```Opcode: 0110011
+     Funct7: 0000000
+     Funct3: 100
+     rs1 (r1): 00001 (binary)
+     rs2 (r4): 00100 (binary)
+     rd (r8): 01000 (binary)
+     Instruction Code: 0000000 00100 00001 100 01000 0110011```
 
- * SLT r10, r2, r4
-
+* SLT r10, r2, r4
+  
  ```Opcode: 0110011
     Funct7: 0000000
     Funct3: 010
     rs1 (r2): 00010 (binary)
     rs2 (r4): 00100 (binary)
     rd (r10): 01010 (binary)
-    Instruction Code: 0000000 00100 00010 010 01010 0110011```
+    Instruction Code: 0000000 00100 00010 010 01010 0110011```
+
+
+
 
 
 
