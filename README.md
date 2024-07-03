@@ -245,7 +245,10 @@ LW r13, r1, 2
 SLL r15, r1, r2
 
 Upload the 32-bit pattern on Github"
- RISC-V, as an open standard instruction set architecture (ISA), categorizes its instructions into several types based on their formats and intended operations. These primary RISC-V instruction types are:
+
+**About RISC-V Instruction Type**
+
+ RISC-V, is an open standard instruction set architecture (ISA), categorizes its instructions into several types based on their formats and intended operations. These primary RISC-V instruction types are:
 
 1. **R-type (Register-type)**:
    - These instructions operate on registers and typically involve arithmetic or logical operations between two source registers, storing the result in a destination register.
@@ -272,6 +275,8 @@ Upload the 32-bit pattern on Github"
    - Example: jal rd, offset (Jump and Link)
 
 Each of these instruction types has a specific format, opcode, and field layout in the instruction encoding, allowing RISC-V processors to efficiently execute a wide range of operations while maintaining simplicity and modularity in the instruction set architecture
+
+<img src="https://th.bing.com/th/id/OIP.4HYOeXVUJWKyJLH4mVUwmgHaDI?w=335&h=147&c=7&r=0&o=5&dpr=1.5&pid=1.7">
 
 # R-Type Instructions (Register-Register)
 
@@ -327,18 +332,64 @@ R-Type instructions format: `funct7 | rs2 | rs1 | funct3 | rd | opcode`
 
 * SLT r10, r2, r4
   
-  ``Opcode: 0110011
-    Funct7: 0000000
-    Funct3: 010
-    rs1 (r2): 00010 (binary)
-    rs2 (r4): 00100 (binary)
-    rd (r10): 01010 (binary)
-    Instruction Code: 0000000 00100 00010 010 01010 0110011``
+  ```Opcode: 0110011
+     Funct7: 0000000
+     Funct3: 010
+     rs1 (r2): 00010 (binary)
+     rs2 (r4): 00100 (binary)
+     rd (r10): 01010 (binary)
+     Instruction Code: 0000000 00100 00010 010 01010 0110011```
 
  
  # I-Type Instructions (Immediate)
 
  I-Type instructions format: `imm[11:0] | rs1 | funct3 | rd | opcode`
+
+ - ADDI r12, r3, 5
+
+    ``` Opcode: 0010011
+        Funct3: 000
+        rs1 (r3): 00011 (binary)
+        rd (r12): 01100 (binary)
+        Immediate (5): 00000101 (binary)
+        Instruction Code: 00000101 00011 01100 000 0010011```
+
+- SW r3, r1, 4
+
+    ``` Opcode: 0100011
+        Funct3: 010
+        rs1 (r1): 00001 (binary)
+        rs2 (r3): 00011 (binary)
+        Immediate (4): 000000100 (binary)
+        Instruction Code: 000000100 00001 00011 010 0100011```
+   
+- SRL r16, r11, r2
+
+     ```Opcode: 0110011
+        Funct7: 0000000
+        Funct3: 101
+        rs1 (r11): 01011 (binary)
+        rs2 (r2): 00010 (binary)
+        rd (r16): 10000 (binary)
+        Instruction Code: 0000000 00010 01011 101 10000 0110011```
+
+# S-Type Instructions (Store)
+
+S-Type instructions format: `imm[11:5] | rs2 | rs1 | funct3 | imm[4:0] | opcode`
+
+  - SW r3, r1, 4
+
+       ``` Opcode: 0100011
+           Funct3: 010
+           rs1 (r1): 00001 (binary)
+           rs2 (r3): 00011 (binary)
+           Immediate (4): 000000100 (binary)
+           Instruction Code: 000000100 00001 00011 010 0100011```
+       
+       
+
+ 
+ 
 
 
 
