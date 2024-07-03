@@ -245,6 +245,33 @@ LW r13, r1, 2
 SLL r15, r1, r2
 
 Upload the 32-bit pattern on Github"
+ RISC-V, as an open standard instruction set architecture (ISA), categorizes its instructions into several types based on their formats and intended operations. These primary RISC-V instruction types are:
+
+1. **R-type (Register-type)**:
+   - These instructions operate on registers and typically involve arithmetic or logical operations between two source registers, storing the result in a destination register.
+   - Example: add rd, rs1, rs2 (Addition)
+
+2. **I-type (Immediate-type)**:
+   - These instructions also operate on registers but include an immediate value (constant) as part of the operation. They are used for operations like immediate arithmetic, loads, and conditional branches.
+   - Example: addi rd, rs1, imm (Add Immediate)
+
+3. **S-type (Store-type)**:
+   - These instructions store a value from a register into memory. They involve specifying a base address (in a register) and an offset to calculate the memory address.
+   - Example: sw rs2, offset(rs1) (Store Word)
+
+4. **B-type (Branch-type)**:
+   - These instructions perform conditional branches based on comparisons between two registers. They determine whether to jump to a new address based on the result of the comparison.
+   - Example: beq rs1, rs2, offset (Branch if Equal)
+
+5. **U-type (Upper Immediate-type)**:
+   - These instructions load a large immediate value (shifted left by 12 bits) into a register. They are used to set the upper bits of a register without affecting the lower bits.
+   - Example: lui rd, imm (Load Upper Immediate)
+
+6. **J-type (Jump-type)**:
+   - These instructions perform unconditional jumps to a new address. They are typically used for procedure calls or long jumps within a program.
+   - Example: jal rd, offset (Jump and Link)
+
+Each of these instruction types has a specific format, opcode, and field layout in the instruction encoding, allowing RISC-V processors to efficiently execute a wide range of operations while maintaining simplicity and modularity in the instruction set architecture
 
 
 
