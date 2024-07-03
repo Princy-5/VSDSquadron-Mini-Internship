@@ -276,7 +276,7 @@ Upload the 32-bit pattern on Github"
 
 Each of these instruction types has a specific format, opcode, and field layout in the instruction encoding, allowing RISC-V processors to efficiently execute a wide range of operations while maintaining simplicity and modularity in the instruction set architecture
 
-<img src="https://th.bing.com/th/id/OIP.4HYOeXVUJWKyJLH4mVUwmgHaDI?w=335&h=147&c=7&r=0&o=5&dpr=1.5&pid=1.7">
+                      <img src="https://th.bing.com/th/id/OIP.4HYOeXVUJWKyJLH4mVUwmgHaDI?w=335&h=147&c=7&r=0&o=5&dpr=1.5&pid=1.7">
 
 # R-Type Instructions (Register-Register)
 
@@ -385,7 +385,62 @@ S-Type instructions format: `imm[11:5] | rs2 | rs1 | funct3 | imm[4:0] | opcode`
            rs2 (r3): 00011 (binary)
            Immediate (4): 000000100 (binary)
            Instruction Code: 000000100 00001 00011 010 0100011```
-       
+
+# B-Type Instructions (Branch)
+
+B-Type instructions format: `imm[12|10:5] | rs2 | rs1 | funct3 | imm[4:1|11] | opcode`
+
+- BNE r0, r1, 20
+  
+   ```Opcode: 1100011
+      Funct3: 001
+      rs1 (r0): 00000 (binary)
+      rs2 (r1): 00001 (binary)
+      Immediate (20): 0000101000 (binary)
+      Instruction Code: 0000101000 00000 00001 001 1100011```
+
+- BEQ r0, r0, 15
+  
+  ``` Opcode: 1100011
+      Funct3: 000
+      rs1 (r0): 00000 (binary)
+      rs2 (r0): 00000 (binary)
+      Immediate (15): 0000001111 (binary)
+      Instruction Code: 0000001111 00000 00000 000 1100011```
+
+# U-Type Instructions (Upper Immediate)
+
+  There are none in the provided list
+
+# J-Type Instructions (Jump)
+
+- LW r13, r11, 2
+
+   ```Opcode: 0000011
+     Funct3: 010
+     rs1 (r11): 01011 (binary)
+     rd (r13): 01101 (binary)
+     Immediate (2): 00000000010 (binary)
+     Instruction Code: 00000000010 01011 01101 010 0000011```
+   
+- SLL r15, r11, r2
+
+   ```Opcode: 0110011
+     Funct7: 0000000
+     Funct3: 001
+     rs1 (r11): 01011 (binary)
+     rs2 (r2): 00010 (binary)
+     rd (r15): 01111 (binary)
+     Instruction Code: 0000000 00010 01011 001 01111 0110011```
+
+# Summary
+
+ These instructions and their corresponding formats provide a clear representation of how RISC-V organizes its operations. The exact 32-bit codes ensure that each instruction is properly encoded for execution in a RISC-V processor.
+
+
+
+
+
        
 
  
