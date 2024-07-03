@@ -273,6 +273,59 @@ Upload the 32-bit pattern on Github"
 
 Each of these instruction types has a specific format, opcode, and field layout in the instruction encoding, allowing RISC-V processors to efficiently execute a wide range of operations while maintaining simplicity and modularity in the instruction set architecture
 
+# R-TYPE INSTRUCTION
+
+* ADD r1, r2, r3
+
+   ```Opcode: 0110011
+       Funct7: 0000000
+       Funct3: 000
+       rs1 (r2): 00010 (binary)
+       rs2 (r3): 00011 (binary)
+       rd (r1): 00001 (binary)
+       Instruction Code: 0000000 00011 00010 000 00001 0110011```
+* SUB r3, r1, r2
+  
+```Opcode: 0110011
+   Funct7: 0100000
+   Funct3: 000
+   rs1 (r1): 00001 (binary)
+   rs2 (r2): 00010 (binary)
+   rd (r3): 00011 (binary)
+   Instruction Code: 0100000 00010 00001 000 00011 0110011```
+AND r2, r1, r3
+Opcode: 0110011
+Funct7: 0000000
+Funct3: 111
+rs1 (r1): 00001 (binary)
+rs2 (r3): 00011 (binary)
+rd (r2): 00010 (binary)
+Instruction Code: 0000000 00011 00001 111 00010 0110011
+OR r8, r2, r5
+Opcode: 0110011
+Funct7: 0000000
+Funct3: 110
+rs1 (r2): 00010 (binary)
+rs2 (r5): 00101 (binary)
+rd (r8): 01000 (binary)
+Instruction Code: 0000000 00101 00010 110 01000 0110011
+XOR r8, r1, r4
+Opcode: 0110011
+Funct7: 0000000
+Funct3: 100
+rs1 (r1): 00001 (binary)
+rs2 (r4): 00100 (binary)
+rd (r8): 01000 (binary)
+Instruction Code: 0000000 00100 00001 100 01000 0110011
+SLT r10, r2, r4
+Opcode: 0110011
+Funct7: 0000000
+Funct3: 010
+rs1 (r2): 00010 (binary)
+rs2 (r4): 00100 (binary)
+rd (r10): 01010 (binary)
+Instruction Code: 0000000 00100 00010 010 01010 0110011
+
 
 
 
