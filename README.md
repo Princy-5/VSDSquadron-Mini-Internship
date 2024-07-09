@@ -471,9 +471,9 @@ I developed a comprehensive set of commands and successfully achieved the desire
 
 2. Simulation Tools:
 
-   * **command 3** : `sudo apt update`
+* **command 3** : `sudo apt update`
 
-   * **command 4** : `sudo apt install inverilog gtkwave`
+* **command 4** : `sudo apt install inverilog gtkwave`
 
   <img width="376" alt="image" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/9fffc5fa-4835-48fb-af4b-97c33e9f5998">
  
@@ -550,6 +550,7 @@ Here we use the Testbench to setup our environment to test and validate code
 ## GTKWAVE WINDOW
 
 <img width="843" alt="image" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/bcb3189b-ddae-4caf-828d-2dea0d383078">
+
 
 The tests have been completed and all results have been confirmed.
 
