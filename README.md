@@ -439,6 +439,43 @@ B-Type instructions format: `imm[12|10:5] | rs2 | rs1 | funct3 | imm[4:1|11] | o
  These instructions and their corresponding formats provide a clear representation of how RISC-V organizes its operations. The exact 32-bit codes ensure that each instruction is properly encoded for execution in a RISC-V processor.
 
 
+ # TASK 5
+ ## RISC-V Core Verilog netlist and Testbench for Functional simulation.
+
+ **Acknowledgements Section :**
+      Referencing a GitHub repository: `https://github.com/vinayrayapati/rv32i/.`
+      1. *Project Development*: The acknowledgements indicate that have developed a set of commands and achieved a desired output for my project.
+
+      2. *Reference*: I have utilized the GitHub repository https://github.com/vinayrayapati/rv32i/ as a key reference source.
+
+      3. *Guidance and Examples*: The repository provided valuable guidance and examples that helped to understand the required techniques for my project.
+
+In essence, the acknowledgements section is thanking the GitHub repository owner for their work, which served as a valuable resource for understanding and implementing the techniques necessary for my project's success. It's a way of giving credit where it's due and acknowledging the sources that contributed significantly to my work.
+
+## REFERENCE-DRIVEN DEVELOPMENT
+
+* Clone the Reference Repository
+
+* Set Up Simulation Tools (GTKWave)
+
+* Edit the Testbench File
+
+* Run the Functional Simulation
+
+**WORKFLOW**
+
+1. Cloning the Reference:
+
+   * Cloning is the process of creating a local copy of a remote repository. This allows you to have a complete copy of the repo
+   * Command 1 : git clone http://github.com/vinayrayapati/rv32i.git my_ticket_rv32i
+   * Command 2 : cd my_printterminal_rv32i
+
+     "<img width="959" alt="h" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/0b1a743c-e729-40ed-a417-3bf31836e63f">
+
+
+
+
+
 
 
 
