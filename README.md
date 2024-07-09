@@ -445,6 +445,7 @@ B-Type instructions format: `imm[12|10:5] | rs2 | rs1 | funct3 | imm[4:1|11] | o
   ### Acknowledgements Section :
  
       Referencing a GitHub repository: `https://github.com/vinayrayapati/rv32i/.`
+      
       1. Project Development: The acknowledgements indicate that have developed a set of commands and achieved a desired output for my project.
 
       2. Reference: I have utilized the GitHub repository https://github.com/vinayrayapati/rv32i/ as a key reference source.
