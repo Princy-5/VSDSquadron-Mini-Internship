@@ -471,9 +471,9 @@ I developed a comprehensive set of commands and successfully achieved the desire
 
 2. Simulation Tools:
 
-* **command 3** : `sudo apt update`
+   * **command 3** : `sudo apt update`
 
-* **command 4** : `sudo apt install inverilog gtkwave`
+   * **command 4** : `sudo apt install inverilog gtkwave`
 
   <img width="376" alt="image" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/9fffc5fa-4835-48fb-af4b-97c33e9f5998">
  
@@ -508,6 +508,53 @@ Here we use the Testbench to setup our environment to test and validate code
 * Here we get the gtkwave windows and Output can be obtained.
 
    <img width="920" alt="i" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/ee09be0e-294a-4271-9ddf-b0fef3e0e001">
+
+# OUTPUT
+
+## ADD (r1,r2,r3)
+
+<img width="752" alt="image" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/a248c596-55a0-4e6b-928f-b604d1d636d9">
+
+## SUB (r3,r1,r2)
+
+<img width="747" alt="image" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/6c188d96-554e-4314-99f7-a32078f5a6ab">
+
+## AND (r2,r1,r3)
+
+<img width="749" alt="image" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/e57e6865-594d-4f99-b101-44613f50cd8c">
+
+## OR (r8,r2,r5)
+
+<img width="745" alt="image" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/76691961-7d36-4d8b-a80b-67f32d27ec9b">
+
+## XOR (r8,r1,r4)
+
+<img width="743" alt="image" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/452dabf3-0091-4c01-86c2-d1ae5f3d29d9">
+
+##  SLT (r10,r2,r4)
+
+<img width="746" alt="image" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/4b3b61ef-cde5-4e6f-8a1f-34340858733f">
+
+## BEQ (r0,r0,15)
+
+<img width="743" alt="image" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/8531ef10-20d4-4246-97f5-3460ad6a4081">
+
+## BNE (r0,r1,20)
+
+<img width="742" alt="image" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/1932f3e2-faf8-47d8-8487-957dc1047425">
+
+## SLL (r15,r11,r2)
+
+<img width="747" alt="image" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/7e880df9-bf82-4776-87f9-0443376a6c6d">
+
+## GTKWAVE WINDOW
+
+<img width="843" alt="image" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/bcb3189b-ddae-4caf-828d-2dea0d383078">
+
+The tests have been completed and all results have been confirmed.
+
+
+
 
 
 
