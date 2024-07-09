@@ -671,7 +671,11 @@ int main(void) {
     }
     
     return 0;
-}```
+}
+```
+
+# Conclusion
+The 2-bit comparator effectively compares two binary numbers and outputs the comparison results through LEDs. This project reinforces the fundamental concepts of digital design.
 
 
 
