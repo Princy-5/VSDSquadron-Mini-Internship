@@ -463,8 +463,8 @@ I developed a comprehensive set of commands and successfully achieved the desire
 1. Cloning the Reference:
 
    * Cloning is the process of creating a local copy of a remote repository. This allows you to have a complete copy of the repo
-   * Command 1 : git clone `http://github.com/vinayrayapati/rv32i.git my_ticket_rv32i`
-   * Command 2 : cd `my_printterminal_rv32i`
+   * **Command 1** : git clone `http://github.com/vinayrayapati/rv32i.git my_ticket_rv32i`
+   * **Command 2** : cd `my_printterminal_rv32i`
 
      <img width="959" alt="h" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/0b1a743c-e729-40ed-a417-3bf31836e63f">
      This will download the project into a local directory named my_printterminal_rv32i.
@@ -474,6 +474,49 @@ I developed a comprehensive set of commands and successfully achieved the desire
 * **command 3** : `sudo apt update`
 
 * **command 4** : `sudo apt install inverilog gtkwave`
+
+  <img width="376" alt="image" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/9fffc5fa-4835-48fb-af4b-97c33e9f5998">
+ 
+  <img width="433" alt="image" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/93e32656-9095-4c50-8dd3-37d6bc3b1880">
+
+3. Testbench File:
+
+Here we use the Testbench to setup our environment to test and validate code
+
+* Open Testbench file using text editor:
+
+* `nano iiitb_rv32i_tb.v`
+
+  <img width="956" alt="g" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/74e24ded-7287-4937-a9f6-7a86586d0e44">
+
+* Simulation
+  
+* `iverilog -o rv32i_simulation iiitb_rv32i.v iiitb_rv32i_tb.v`
+
+  <img width="480" alt="image" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/36418bd8-4f89-40ab-8f7b-35abab2b59da">
+
+4. Run Functional Simulation:
+
+    `vvp rv32i_simulation`
+
+   <img width="959" alt="h" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/901e24d0-28da-497d-9409-3773db46f98f">
+
+* Here we get he Output in the form of a wave
+
+* `gtkwave simulation.vcd`
+
+* Here we get the gtkwave windows and Output can be obtained.
+
+   <img width="920" alt="i" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/ee09be0e-294a-4271-9ddf-b0fef3e0e001">
+
+
+
+  
+  
+
+
+
+  
   
 
 
