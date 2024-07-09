@@ -439,14 +439,14 @@ B-Type instructions format: `imm[12|10:5] | rs2 | rs1 | funct3 | imm[4:1|11] | o
  These instructions and their corresponding formats provide a clear representation of how RISC-V organizes its operations. The exact 32-bit codes ensure that each instruction is properly encoded for execution in a RISC-V processor.
 
 
- # TASK 5
- ## RISC-V Core Verilog netlist and Testbench for Functional simulation.
-
-  ### Acknowledgements Section :
+# TASK 5
+## RISC-V Core Verilog netlist and Testbench for Functional simulation.
  
-      Referencing a GitHub repository: `https://github.com/vinayrayapati/rv32i/.`
-     
-      * I developed a comprehensive set of commands and successfully achieved the desired output for my project. This accomplishment was greatly aided by the invaluable guidance and examples provided by the GitHub repository maintained by Vinay Rayapati (https://github.com/vinayrayapati/rv32i/). The repository served as a crucial reference for understanding the required techniques and applying them effectively in my implementation. I am deeply grateful for the insights and resources offered by this repository, which significantly contributed to the success of my project.
+### Acknowledgements Section :
+ 
+Referencing a GitHub repository: `https://github.com/vinayrayapati/rv32i/`
+
+I developed a comprehensive set of commands and successfully achieved the desired output for my project. This accomplishment was greatly aided by the invaluable guidance and examples provided by the GitHub repository maintained by Vinay Rayapati (https://github.com/vinayrayapati/rv32i/). The repository served as a crucial reference for understanding the required techniques and applying them effectively in my implementation. I am deeply grateful for the insights and resources offered by this repository, which significantly contributed to the success of my project.
 
 ## REFERENCE-DRIVEN DEVELOPMENT
 
