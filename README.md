@@ -584,10 +584,35 @@ The objective of this project is to:
 | LED  |	VSD SQUADRON BOARD|
 |------|-------------------|
 | LED1 |	PIN4 (PD4)        |
-|------|-------------------|
 | LED2 |	PIN5 (PD5)        |
-|------|-------------------|
 | LED3 |	PIN6 (PD6)        |
+
+**Functional Description**
+
+* A > B: LED1 (Yellow color) lights up when a is greater than b.
+* A < B: LED2 (Red color) lights up when a is less than b.
+* A = B: LED3 (Green color) lights up when both numbers are equal.
+
+Truth Table of 2-bit comparator
+|A1|A0|B1|B0|A>B|A=B|A<B|
+|--|--|--|--|---|---|---|
+|0 |0	|0 |0	|0  |	1 | 0 |
+|0 |0 |0 |1 |0	 | 0 | 1 |
+|0	|0	|1	|0 |0  |	0 | 1 |
+|0 |0 |1 |1	|0	 | 0 | 1 |
+|0	|1	|0	|0 |1  |	0 | 0 |
+0	1	0	1	0	1	0
+0	1	1	0	0	0	1
+0	1	1	1	0	0	1
+1	0	0	0	1	0	0
+1	0	0	1	1	0	0
+1	0	1	0	0	1	0
+1	0	1	1	0	0	1
+1	1	0	0	1	0	0
+1	1	0	1	1	0	0
+1	1	1	0	1	0	0
+1	1	1	1	0	1	0
+
 
 
 
