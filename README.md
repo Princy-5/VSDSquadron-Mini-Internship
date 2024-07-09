@@ -442,13 +442,14 @@ B-Type instructions format: `imm[12|10:5] | rs2 | rs1 | funct3 | imm[4:1|11] | o
  # TASK 5
  ## RISC-V Core Verilog netlist and Testbench for Functional simulation.
 
- **Acknowledgements Section :**
+  ### Acknowledgements Section :
+ 
       Referencing a GitHub repository: `https://github.com/vinayrayapati/rv32i/.`
-      1. *Project Development*: The acknowledgements indicate that have developed a set of commands and achieved a desired output for my project.
+      1. Project Development: The acknowledgements indicate that have developed a set of commands and achieved a desired output for my project.
 
-      2. *Reference*: I have utilized the GitHub repository https://github.com/vinayrayapati/rv32i/ as a key reference source.
+      2. Reference: I have utilized the GitHub repository https://github.com/vinayrayapati/rv32i/ as a key reference source.
 
-      3. *Guidance and Examples*: The repository provided valuable guidance and examples that helped to understand the required techniques for my project.
+      3. Guidance and Example: The repository provided valuable guidance and examples that helped to understand the required techniques for my project.
 
 In essence, the acknowledgements section is thanking the GitHub repository owner for their work, which served as a valuable resource for understanding and implementing the techniques necessary for my project's success. It's a way of giving credit where it's due and acknowledging the sources that contributed significantly to my work.
 
