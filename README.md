@@ -467,10 +467,18 @@ In essence, the acknowledgements section is thanking the GitHub repository owner
 1. Cloning the Reference:
 
    * Cloning is the process of creating a local copy of a remote repository. This allows you to have a complete copy of the repo
-   * Command 1 : git clone http://github.com/vinayrayapati/rv32i.git my_ticket_rv32i
-   * Command 2 : cd my_printterminal_rv32i
+   * Command 1 : git clone `http://github.com/vinayrayapati/rv32i.git my_ticket_rv32i`
+   * Command 2 : cd `my_printterminal_rv32i`
 
-     "<img width="959" alt="h" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/0b1a743c-e729-40ed-a417-3bf31836e63f">
+     <img width="959" alt="h" src="https://github.com/Princy-5/VSDSquadron-Mini-Internship/assets/173944414/0b1a743c-e729-40ed-a417-3bf31836e63f">
+     This will download the project into a local directory named my_printterminal_rv32i.
+
+2. Simulation Tools:
+
+* **command 3** : `sudo apt update`
+
+* **command 4** : `sudo apt install inverilog gtkwave`
+  
 
 
 
