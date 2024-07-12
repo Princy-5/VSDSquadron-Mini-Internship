@@ -582,7 +582,8 @@ Develop a digital ticket vending system where users interact via a keypad or tou
 * Keypad: Uses GPIO pins for both rows (ROW1-ROW4) and columns (COL1-COL3) to implement a matrix keypad, allowing the microcontroller to scan and detect keypresses.
 * LED: Connected to GPIO pins (LED1 and LED2) for digital output control, allowing the microcontroller to turn them on or off based on program logic.
 
-  +-----------------------------------+
+
++-----------------------------------+
 |         Microcontroller           |
 +-----------------------------------+
 |                                   |
