@@ -557,7 +557,69 @@ The tests have been completed and all results have been confirmed.
 
 # TASK 6
 
-## AUTOMATED PARKING TICKET VENDING MACHINE
+## Development of an Automated Parking Ticket Vending System using VSDSquadron Mini Risc-v board
+
+### Project Overview:
+Develop a digital ticket vending system where users interact via a keypad or touchscreen to generate and display parking tickets on an LCD screen. The system will simulate ticket issuance digitally without using a physical printer.
+
+## Hardware Components:
+
+* VSDSquadron Mini RISC-V Board
+* LCD Display
+* Keypad or Touchscreen
+* Servo Motor
+* LEDs and Buzzer
+
+## Software Components:
+
+* C Programming Language: Utilize C for programming the VSDSquadron Mini board.
+* Peripheral Libraries: Implement functions to control the LCD, keypad or touchscreen, servo motor, LEDs, and buzzer.
+
+## Pin Diagram
+
+* Microcontroller: Represents the main processing unit with its GPIO pins numbered (GPIO1, GPIO2, ... GPIO15).
+* LCD Display: Connected to GPIO pins for data lines (D4-D7) and control lines (RS, EN) to facilitate communication between the microcontroller and the display module.
+* Keypad: Uses GPIO pins for both rows (ROW1-ROW4) and columns (COL1-COL3) to implement a matrix keypad, allowing the microcontroller to scan and detect keypresses.
+* LED: Connected to GPIO pins (LED1 and LED2) for digital output control, allowing the microcontroller to turn them on or off based on program logic.
+
+  +-----------------------------------+
+|         Microcontroller           |
++-----------------------------------+
+|                                   |
+|    LCD Display                    |
+|   +---------------------------+   |
+|   |             |             |   |
+|   |   RS        |    GPIO1    |   |
+|   |   EN        |    GPIO2    |   |
+|   |   D4        |    GPIO3    |   |
+|   |   D5        |    GPIO4    |   |
+|   |   D6        |    GPIO5    |   |
+|   |   D7        |    GPIO6    |   |
+|   +---------------------------+   |
+|                                   |
+|    Keypad                         |
+|   +---------------------------+   |
+|   |             |             |   |
+|   |   ROW1      |    GPIO7    |   |
+|   |   ROW2      |    GPIO8    |   |
+|   |   ROW3      |    GPIO9    |   |
+|   |   ROW4      |    GPIO10   |   |
+|   |   COL1      |    GPIO11   |   |
+|   |   COL2      |    GPIO12   |   |
+|   |   COL3      |    GPIO13   |   |
+|   +---------------------------+   |
+|                                   |
+|    LED                            |
+|   +---------------------------+   |
+|   |             |             |   |
+|   |   LED1      |    GPIO14   |   |
+|   |   LED2      |    GPIO15   |   |
+|   +---------------------------+   |
++-----------------------------------+
+
+
+
+
 
 
 
