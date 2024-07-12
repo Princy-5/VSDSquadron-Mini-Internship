@@ -621,6 +621,75 @@ Develop a digital ticket vending system where users interact via a keypad or tou
 +-----------------------------------+
 ```
 
+## Code for Implementing Hardware Specifications
+```
+#include <stdio.h>
+#include <stdint.h>
+#include <stdbool.h>
+#include "vsd_squadron_mini.h" 
+void initSystem();
+void initLCD();
+void initKeypad();
+void displayMessage(char *message);
+void getUserInput();
+void generateTicket();
+void simulateDispensing();
+
+
+char userInput[32];  
+
+int main() {
+    initSystem(); 
+    
+    while (1) {
+        displayMessage("Welcome to Parking System");
+        getUserInput();
+        generateTicket();
+        simulateDispensing();
+    }
+
+    return 0;
+}
+
+void initSystem() {
+    initLCD();
+    initKeypad();
+}
+
+void initLCD() {
+    lcd_init();  
+}
+
+void initKeypad() {
+    keypad_init();  
+}
+
+void displayMessage(char *message) {
+    lcd_clear();
+    lcd_set_cursor(0, 0);
+    lcd_print(message);
+}
+
+void getUserInput() {
+    keypad_get_input(userInput, sizeof(userInput));
+}
+
+void generateTicket() {
+    char ticketInfo[64];  
+    snprintf(ticketInfo, sizeof(ticketInfo), "Parking Ticket\n%s", userInput);
+    displayMessage(ticketInfo);
+}
+
+void simulateDispensing() {
+  
+    displayMessage("Ticket Dispensed");
+    buzzer_on();
+    delay_ms(1000);  
+    buzzer_off();
+}
+```
+
+
 
 
 
